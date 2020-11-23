@@ -29,3 +29,24 @@
   height: 400px;
   background-color: #69e9a2;
 }
+
+
+/* terza sezione */
+#contact {
+  height: 600px;
+  background-color: white;
+}
+
+/* footer */
+
+/* footer top */
+.footer_top {
+  height: 250px;
+  background-color: #314380;
+}
+
+/* footer bottom */
+.footer_bottom {
+  height: 100px;
+  background-color: #1c1c3a;
+}
