@@ -1,4 +1,25 @@
 .debug [class*='col-'] {
   background-color: lightblue;
   border: 1px solid black;
+  height: 100px;
+}
+
+/* header */
+.header_top_nav {
+  height: 100px;
+  background-color: rgb(28, 28, 58);
+}
+
+.jumbo {
+  height: 500px;
+  background-color: rgb(105, 233, 162);
+}
+
+.jumbo .row .col-sm-12 {
+  height: 500px;
+}
+
+/* corpo */
+#portfolio {
+  background-color: white;
 }
