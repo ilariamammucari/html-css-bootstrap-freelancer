@@ -11,15 +11,21 @@
 }
 
 .jumbo {
-  height: 500px;
+  height: 600px;
   background-color: rgb(105, 233, 162);
 }
 
-.jumbo .row .col-sm-12 {
-  height: 500px;
-}
 
 /* corpo */
+
+/* prima sezione */
 #portfolio {
+  height: 600px;
   background-color: white;
+}
+
+/* seconda sezione */
+#about {
+  height: 400px;
+  background-color: #69e9a2;
 }
