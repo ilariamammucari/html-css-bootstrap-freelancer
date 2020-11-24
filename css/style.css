@@ -117,6 +117,7 @@ header {
 #contact input {
   border: none;
   color: #333333;
+  width: 100%;
   border-bottom: 1px solid grey;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -126,6 +127,7 @@ header {
   border: none;
   border-bottom: 1px solid #333333;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 #contact .btn {
@@ -139,13 +141,52 @@ header {
 
 /* footer top */
 .footer_top {
-  height: 250px;
-  background-color: #314380;
+  background-color: #465f7a;
+  color: white;
+  padding: 30px 0 50px;
+}
+
+.footer_top p {
+  padding: 0 55px;
+}
+
+.footer_top ul li {
+  margin-top: 5px;
+}
+
+.footer_top ul li a {
+  font-size: 13px;
+  padding: 10px 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+}
+
+.footer_top ul li a .fa-facebook-f {
+  padding: 0 3px;
+}
+
+.footer_top ul li a .fa-linkedin-in {
+  padding: 0 2px;
+}
+
+.footer_top span {
+  color: #1abc9c;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer_top .col-sm-12 {
+    margin: 30px 0;
+  }
 }
 
 
 /* footer bottom */
 .footer_bottom {
-  height: 100px;
-  background-color: #1c1c3a;
+  background-color: #2c3e50;
+  padding: 50px 0;
+}
+
+.footer_bottom small {
+  color: white;
 }
