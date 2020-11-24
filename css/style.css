@@ -101,10 +101,38 @@ header {
 
 /* terza sezione */
 #contact {
-  height: 600px;
   background-color: white;
+  padding: 30px 0 80px;
 }
 
+#contact .ms_star:before,
+#contact .ms_star:after {
+  background-color: #333333;
+}
+
+#contact .ms_star {
+  padding-bottom: 10px;
+}
+
+#contact input {
+  border: none;
+  color: #333333;
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#contact textarea {
+  border: none;
+  border-bottom: 1px solid #333333;
+  margin-bottom: 10px;
+}
+
+#contact .btn {
+  background-color: #1abc9c;
+  color: white;
+  border: 1px solid white;
+}
 
 
 /* footer */
