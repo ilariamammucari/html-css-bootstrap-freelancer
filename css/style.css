@@ -80,11 +80,22 @@ header {
 }
 
 
-
 /* seconda sezione */
 #about {
-  height: 600px;
-  background-color: #69e9a2;
+  background-color: #1abc9c;
+  color: white;
+  padding: 30px 0 50px;
+}
+
+#about p {
+  margin-top: 30px;
+}
+
+#about .btn {
+  margin-top: 20px;
+  background-color: #1abc9c;
+  border: 1px solid white;
+  color: white;
 }
 
 
